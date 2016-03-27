@@ -1,0 +1,20 @@
+/* CSS Document */
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd { margin: 0px; padding: 0px; font-size: 12px;font-weight: normal; }
+ul { list-style: none; }
+img { border-style: none; }
+.clear{zoom:1;}
+.clear:after{content:'';display:block;clear:both;}
+body{ border:1px solid #FF0000; overflow:hidden;}
+#box{ position:relative;}
+#left{wight:200px;height:960px; border:1px solid #0033CC; position:absolute;top:20px;left:20px;}
+#left a{ display:inline-block;}
+#left h2{ width:30px;float:right; margin-left:20px; font-size:5px;}
+
+#main{ margin:20px 160px; display:inline-block;}
+#main p{ font-size:16px; font-family:"宋体";}
+
+#right{width:120px; border:1px solid #0000CC; position:absolute; right:20px; top:20px;}
+#right ul{ }
+#right li{ display:inline-block;}
+#right a{ display:inline-block; padding:20px; padding-bottom:0;}
+#right .pic_4{ padding-bottom:20px;}
